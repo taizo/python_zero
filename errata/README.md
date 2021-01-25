@@ -8,7 +8,7 @@ pandocでHTMLを作成した後、tableのwidth指定を削除しなければな
 
 他に誤りや修正すべき点を見つけた方は、[GitHubのIssue](https://github.com/kaityo256/python_zero/issues)にてご指摘いただければ幸いです。
 
-最終更新日：2021年1月22日
+最終更新日：2021年1月25日
 
 | ページ番号 | 誤 | 正 |
 | ---  | --- | --- |
