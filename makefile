@@ -24,6 +24,10 @@ index.html: index.md
 %/index.html: %/index.md
 	pandoc -s $< -o $@ $(PANDOC_HTMLOPT)
 
+errata/index.html: eratta/index.md
+	pandoc -s $< -o $@ $(PANDOC_HTMLOPT)
+	echo "eratta"
+
 %/assignment.md: %/README.md
 	sed -n '/^##\s.*課題/,$$p' $< > $@
 
